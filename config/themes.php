@@ -16,7 +16,7 @@ return [
         'default' => [
             'name' => 'Default',
             'assets_path' => 'public/themes/shop/default',
-            'views_path' => 'resources/themes/default/views',
+            'views_path' => 'packages/Webkul/Theme/src/Resources/views/bamboo_way', // ✅ point to YOUR views
 
             'vite' => [
                 'hot_file' => 'shop-default-vite.hot',

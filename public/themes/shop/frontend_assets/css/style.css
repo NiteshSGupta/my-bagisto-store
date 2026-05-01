@@ -1,0 +1,35 @@
+@font-face { font-family: 'Soft Aura'; src: url('../lib/fonts/softaura-regular.otf'); font-weight: 500; }
+@font-face { font-family: 'Avenir'; src: url('../lib/fonts/Avenir-Light.ttf'); font-weight: 400; }
+@font-face { font-family: 'Avenir'; src: url('../lib/fonts/Avenir-Regular.ttf'); font-weight: 500; }
+@font-face { font-family: 'Avenir'; src: url('../lib/fonts/Avenir-Heavy.ttf'); font-weight: 700; }
+
+#menu a.active {color: #1F5710;text-decoration: underline;}
+.tab-btn.active { background: #1F5710; color: #F7F1BD; border: 1px solid #1F5710; }
+.custom-owl .owl-nav { display: flex; justify-content: space-between; padding: 0px 6px; position: absolute; top: 50%; transform: translateY(-50%); width: 100%; }
+.custom-owl .owl-dots { display: flex; gap: 5px; justify-content: center; margin-top: 12px; }
+.custom-owl .owl-dot { height: 10px!important; width: 10px!important; background: #FFFCE2!important; border: 1px solid #1F5710!important; border-radius: 50%!important; }
+.custom-owl .owl-dot.active { background: #1F5710!important; } 
+
+.h-txt {text-align: center;overflow: hidden;}
+.green-header { font-family: 'Soft Aura'; font-weight: 500; text-align: center; position: relative; display: inline-block; margin: 0; font-size: 64px;}
+.green-header::before, .green-header::after { content: ""; position: absolute; z-index: -1;height: 100%; }
+.green-header::before { left: -35px;top: -15%;  background: url(../img/obj-1.png) no-repeat;background-size: contain;  width: 2em; }
+.green-header::after { right: -25px; bottom: -42%; background: url('../img/obj-2.png') no-repeat; background-size: contain; width: 1.6em; }
+@media (max-width: 1399px) { .green-header { font-size: calc(1.475rem + 2.3vw); } }
+
+.crafted-bg { background: linear-gradient(to right, #411e0380 0%, #93440880 50%, #411e0380 100%), url(../img/bg-crafted.png) no-repeat center; background-size: cover; }
+.exp-imgbg { background: url(../img/exp-bg.png) no-repeat center; background-size: cover; border-radius: 20px; }
+
+.hotspot-tooltip.show { opacity: 1; scale: 1; pointer-events: auto; }
+.gift-essentials img {width: 80%!important;}
+.gift-essentials .owl-stage {display: flex;align-items: baseline;}
+.gift-journey {background: url(../img/gift-journey-bg.png) no-repeat center left; background-size: cover;}
+.talk-to-team {background: url(../img/talk-to-team-bg.png) no-repeat center; background-size: cover;}
+.material-ethos {background: url(../img/material-ethos-bg.png) no-repeat center; background-size: cover;}
+.our-approach {background: url(../img/our-approach-img.png) no-repeat; background-size: cover;}
+
+/* .tab-btn.active { @apply bg-darkgreen text-cream border-darkgreen; }
+.custom-owl .owl-nav { @apply flex justify-between px-[10px] absolute top-1/2 -translate-y-1/2 w-full; }
+.custom-owl .owl-dots { @apply flex justify-center gap-[5px] mt-3; }
+.custom-owl .owl-dot { @apply w-2.5 h-2.5 rounded-full border border-solid border-darkgreen bg-cream transition-all duration-300; }
+.custom-owl .owl-dot.active { @apply bg-darkgreen; } */
